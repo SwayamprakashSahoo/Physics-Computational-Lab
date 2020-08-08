@@ -4,11 +4,17 @@
 void main()
 {
 	int n, fac = 1, i = 1;
-	do
+	printf("Please enter a number:\n");
+	scanf_s("%d", &n);
+
+	if (n < 0)
 	{
-		printf("Please enter a number:\n");
-		scanf_s("%d", &n);
-	} while (n < 0);
+		do
+		{
+			printf("Please enter a valid number:\n");
+			scanf_s("%d", &n);
+		} while (n < 0);
+	}
 
 	while (n > 0 && i <= n)
 	{
