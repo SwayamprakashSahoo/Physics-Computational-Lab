@@ -10,4 +10,5 @@ while num>0.001:
     sum += num
     denominator += 1
     count+=1
-print('The sum of the above series is .',sum)
+print('The number of terms is:',count)
+print('The sum of the above series is:',sum)
