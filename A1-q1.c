@@ -1,4 +1,4 @@
-//program to add numbers from 1 to n(n<=101) using loop
+//program to add numbers from 1 to n(based on user input) using loop
 #include <stdio.h>
 void main()
 {
